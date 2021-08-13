@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
-import { Row, Col, Button, Card, Image, ListGroup } from 'react-bootstrap';
+import { Row, Col, Button, Image, ListGroup } from 'react-bootstrap';
 import Rating from '../components/Rating';
 //import products from '../products';
-import Product from '../components/Product';
+//import Product from '../components/Product';
 import axios from 'axios'
 
 const ProductScreen = ({ match }) => {
@@ -16,7 +16,7 @@ const ProductScreen = ({ match }) => {
         }
 
         fetchProduct()
-    },[])
+    },[match])
 
     return (
         <>
