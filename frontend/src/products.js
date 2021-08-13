@@ -34,7 +34,7 @@ const products = [
     brand: 'Suzuki',
     category: 'Acoustic',
     price: 99929.99,
-    countInStock: 5,
+    countInStock: 0,
     rating: 4,
     numReviews: 12,
   },
